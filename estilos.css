@@ -1,0 +1,83 @@
+body {
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: 'Aton cs';
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 60px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container1 {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.container1.cont {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container1.cont1 {
+    width: 200px;
+    height: 250px;
+}
+.container1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#img1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1uwsWc31ZWswGdahaduPeD7Qsw3mm8PJgA&s');
+}
+
+#img2 {
+    background-image: url('https://play-lh.googleusercontent.com/ao5M5OolaeqKOk2wFaaIoIxo6YIS5fotAtI19_Vx-712PYU-halC9ylxNz7FB5YQ7Y0');
+}
+
+#img3 {
+    background-image: url('https://wallpapers.com/images/high/dark-darkrai-pokemon-e0lroxtzi2sjgy12.webp');
+}
+
+#img4 {
+    background-image: url('https://wallpapers.com/images/high/zoroark-on-dark-red-background-ab8o9wxtzoc0x2qs.webp');
+}
+
+#img5 {
+    background-image: url('https://moewalls.com/wp-content/uploads/2024/05/pokemon-gengar-thumb-364x205.jpg');
+}
+
+#img6 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/529/285/307/pokemon-minimalism-squirtle-bulbasaur-wallpaper-preview.jpg');
+}
+
+#img7 {
+    background-image: url('https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYgh3ukTqYL3hxz4JEs08ph0xxPWVANNKOONxs-fNO59jAbZAzvF8HcN_A1WKz38fIFRgZKR-DlhornLxpZ70liLuzTuGANVOKJi.jpg?r=01f');
+}
+
+#img8 {
+    background-image: url('https://nintenduo.com/wp-content/uploads/2022/05/Pokemon-Nombres-Perdidos-03.webp');
+}
+
+#img9 {
+    background-image: url('https://nintenduo.com/wp-content/uploads/2022/05/Pokemon-Home-Cambio-Ataques-01.webp');
+}
