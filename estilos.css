@@ -1,5 +1,6 @@
 body {
-    background-color: #2e2e2e;
+    background-image: url('https://media.vandal.net/i/1280x720/3-2021/202132917341652_1.jpg');
+    background-size: cover;
     color: #fff;
     font-family: 'Aton cs';
     text-align: center;
@@ -17,6 +18,20 @@ h1 {
     justify-content: center;
     gap: 20px;
 }
+.containerp2 {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+
+}
 
 .container1 {
     position: relative;
@@ -27,9 +42,14 @@ h1 {
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    text-decoration: none; 
+    display: block;
 
 }
-
+.container1 p {
+    color: #000;
+    font-family: 'Aton cs';
+}
 
 .container1.cont {
     width: 300px;
