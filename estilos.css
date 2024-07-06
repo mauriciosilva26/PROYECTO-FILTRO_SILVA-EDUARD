@@ -159,6 +159,12 @@ h1 {
 #toggle:checked + .menu-icon img {
     transform: rotate(90deg); 
 }
+.imgtitulo {
+
+    width: 80%;
+    height: auto%;
+    max-width: 100%; 
+}
 /*
 .containerp3fondo{
     position:relative;
