@@ -23,11 +23,7 @@ h1 {
     color: transparent;
     animation: Animaciontext 5s infinite;
 }
-@supports (-webkit-text-stroke: 2px rgb(228, 224, 15)) {
-    h1 {
-      -webkit-text-stroke: 2px rgb(228, 224, 15); /* Borde del texto */
-    }
-  }
+
 @keyframes Animaciontext {
     0% { color: rgb(226, 148, 31); }
     50% { color: rgb(70, 70, 226); }
