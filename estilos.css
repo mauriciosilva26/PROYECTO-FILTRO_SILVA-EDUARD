@@ -1,15 +1,32 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Pokemon solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url('https://media.vandal.net/i/1280x720/3-2021/202132917341652_1.jpg');
     background-size: cover;
     color: #fff;
-    font-family: 'Aton cs';
     text-align: center;
     padding: 20px;
+    font-family: 'MiFuente', sans-serif;
 }
 
 h1 {
-    color: #000000;
     font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px rgb(228, 224, 15);
+    color: transparent;
+    animation: Animaciontext 5s infinite;
+}
+@keyframes Animaciontext {
+    0% { color: rgb(226, 148, 31); }
+    50% { color: rgb(70, 70, 226); }
+    100% { color: rgb(219, 221, 72); }
 }
 
 .container {
@@ -36,6 +53,7 @@ h1 {
 
 .containerp2 p {
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 .containerp3 {
@@ -51,6 +69,9 @@ h1 {
     display: block;
     margin: 0 auto;
 
+}
+.containerp3 p {
+    font-family: 'Courier New', Courier, monospace;
 }
 .imagen {
     float: left;
@@ -82,6 +103,9 @@ h1 {
     display: block;
     margin: 0 auto;
     color: #000;
+}
+.containerp4 p {
+    font-family: 'Courier New', Courier, monospace;
 }
 .menu-toggle {
     position: fixed;
@@ -120,14 +144,17 @@ h1 {
 
 
 .menu {  
+    width: 130%;
+    height: 80vh;
     display: none;
     position: absolute;
-    top: 60px; 
-    right: 10px; 
+    top: 90px; 
+    right: px; 
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 10px;
+    overflow-y: auto;
 }
 
 .menu ul {
@@ -138,6 +165,8 @@ h1 {
 
 .menu ul li {
     margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
 }
 
 .menu ul li a {
@@ -162,30 +191,9 @@ h1 {
 .imgtitulo {
 
     width: 80%;
-    height: auto%;
+    height: auto;
     max-width: 100%; 
 }
-/*
-.containerp3fondo{
-    position:relative;
-    width: 50%;
-    height: 600px;
-    background-image: url('https://http2.mlstatic.com/D_NQ_NP_616900-MCO73286229908_122023-O.webp');
-    margin: 0 auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no;
-    animation: animacion_imagen 2s steps(1) infinite;
-}
-@keyframes animacion_imagen {
-    0% {
-        background-image: url('https://http2.mlstatic.com/D_NQ_NP_616900-MCO73286229908_122023-O.webp');
-    }
-    10% {
-        background-image: url('https://static.wikia.nocookie.net/espokemon/images/6/6b/Pokemon_Edici%C3%B3n_Oro.jpg/revision/latest?cb=20160715092932');
-    }
-
-}*/
 
 .container1 {
     position: relative;
@@ -258,4 +266,35 @@ h1 {
 
 #img9 {
     background-image: url('https://nintenduo.com/wp-content/uploads/2022/05/Pokemon-Home-Cambio-Ataques-01.webp');
+}
+.button {
+    padding: 20px 20px; 
+    font-size: 20px; 
+    background-image: url(https://i.gifer.com/YNXo.gif); 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    position: fixed; /* Posicionamiento fijo */
+    top: 80%; /* Distancia desde la parte superior */
+    right: 7%; /* Distancia desde la derecha */
+    z-index: 1000;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    background-position: center; /* Centra la imagen dentro del botón */
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #000;
+}
+button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:focus {
+    outline: none; 
 }
