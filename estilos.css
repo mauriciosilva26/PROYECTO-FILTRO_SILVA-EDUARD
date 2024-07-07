@@ -25,9 +25,9 @@ h1 {
 }
 
 @keyframes Animaciontext {
-    0% { color: rgb(226, 148, 31); }
-    50% { color: rgb(70, 70, 226); }
-    100% { color: rgb(219, 221, 72); }
+    0% { color: rgb(196, 124, 17); }
+    50% { color: rgb(17, 17, 138); }
+    100% { color: rgb(94, 95, 10); }
 }
 
 .container {
@@ -282,7 +282,7 @@ h1 {
     right: 7%;
     z-index: 1000;
     background-size: cover; 
-    background-position: center; /
+    background-position: center; 
     background-repeat: no-repeat;
     text-decoration: none;
     color: #000;
